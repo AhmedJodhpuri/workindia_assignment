@@ -245,6 +245,12 @@ npm test
 - Implement proper error handling
 - Log important operations
 
+## Future improvements in handling concurrency and atomicity while making a reservation
+     1. Deadlock detection/handling
+     2. Timeout handling for lock acquisition
+     3. Handling of phantom reads if new services are added
+     4. Optimistic locking alternative for high-contention scenarios
+
 ## License
 
 MIT License - feel free to use and modify as needed.
